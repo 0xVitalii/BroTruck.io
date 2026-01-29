@@ -1,0 +1,7 @@
+{
+  "name": "BroTruck.ai - Cinematic Truck Visuals",
+  "description": "A premium landing page for BroTruck.ai, a mobile app that turns truck photos into cinematic off-road masterpieces using AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
