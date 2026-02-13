@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <rect width="128" height="128" fill="#0a0a0a" rx="24"/>
+
+  <!-- Truck icon - simplified and bold for small sizes -->
+  <g transform="translate(24, 40)">
+    <!-- Main truck body -->
+    <path d="M 0 8 L 0 28 L 4 28 L 4 32 Q 4 36 8 36 Q 12 36 12 32 L 12 28 L 48 28 L 48 32 Q 48 36 52 36 Q 56 36 56 32 L 56 28 L 60 28 L 60 12 L 48 8 Z"
+          fill="#ff5a1f" stroke="#ff8a5f" stroke-width="1" stroke-linejoin="round"/>
+
+    <!-- Cabin -->
+    <path d="M 0 0 L 0 12 L 16 12 L 20 8 L 20 0 Z"
+          fill="#ff5a1f" stroke="#ff8a5f" stroke-width="1" stroke-linejoin="round"/>
+
+    <!-- Window -->
+    <rect x="2" y="2" width="12" height="8" fill="#1a1a1a" opacity="0.6" rx="1"/>
+    <line x1="8" y1="2" x2="8" y2="10" stroke="#0a0a0a" stroke-width="1" opacity="0.4"/>
+
+    <!-- Cargo area detail -->
+    <rect x="24" y="12" width="32" height="12" fill="#ff7a4f" opacity="0.3" rx="1"/>
+
+    <!-- Front wheel -->
+    <circle cx="10" cy="32" r="5" fill="#1a1a1a" stroke="#ff5a1f" stroke-width="2"/>
+    <circle cx="10" cy="32" r="2.5" fill="#2a2a2a"/>
+
+    <!-- Rear wheel -->
+    <circle cx="50" cy="32" r="5" fill="#1a1a1a" stroke="#ff5a1f" stroke-width="2"/>
+    <circle cx="50" cy="32" r="2.5" fill="#2a2a2a"/>
+
+    <!-- Headlight -->
+    <circle cx="2" cy="14" r="1.5" fill="#ffff99" opacity="0.8"/>
+  </g>
+
+  <!-- Subtle glow effect -->
+  <circle cx="64" cy="64" r="48" fill="none" stroke="#ff5a1f" stroke-width="0.5" opacity="0.2"/>
+</svg>

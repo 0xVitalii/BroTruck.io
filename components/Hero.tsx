@@ -13,10 +13,10 @@ const Hero: React.FC = () => {
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
           <div>
             <h1 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight mb-6">
-              Give your truck the <span className="text-truck-orange">cinematic</span> treatment.
+              Your truck. <span className="text-truck-orange">Reimagined</span>. Instantly.
             </h1>
             <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-lg mx-auto lg:mx-0">
-              Upload a photo. Pick a vibe. Instantly see your truck in the wild. No mods, no money, just vibes.
+              Upload a photo. Pick a vibe. <br/>Watch it come alive in cinematic scenes.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <button className="w-full sm:w-auto px-8 py-4 bg-white text-black font-extrabold rounded-xl hover:bg-gray-200 transition-all flex items-center justify-center gap-2">
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
                   <img key={i} className="w-8 h-8 rounded-full border-2 border-black" src={`https://picsum.photos/100/100?random=${i}`} alt="User" />
                 ))}
               </div>
-              <span>Join 50k+ truck owners dreaming big.</span>
+              <span>Join 1,000+ truck owners creating with AI.</span>
             </div>
           </div>
           
